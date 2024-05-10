@@ -1,0 +1,36 @@
+.head{
+    text-align: center;
+}
+
+.head h1{
+    font-size: 60px;
+}
+
+.head h4{
+    margin: 40px auto;
+    padding-top: 15px;
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    margin: 10px;
+    width: 95%;
+}
+
+@media screen and (max-width: 700px){
+
+    .container{
+        display: grid;
+    }
+
+    .head h1{
+        font-size: 50px;
+    }
+    
+}
